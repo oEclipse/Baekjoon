@@ -7,13 +7,7 @@ public class Main {
         StringTokenizer st = new StringTokenizer(bf.readLine(), " ");
         int num1 = Integer.parseInt(st.nextToken());
         int num2 = Integer.parseInt(st.nextToken());
-
-        if(num1>num2) {
-            System.out.print(">");
-        } else if(num1<num2) {
-            System.out.print("<");
-        } else {
-            System.out.print("==");
-        }
+        
+        System.out.println(num1==num2 ? "==" : num1>num2 ? ">" : "<");
     }
 }
