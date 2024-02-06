@@ -18,10 +18,6 @@ public class Main {
             comparePrice += price*number;
         }
 
-        if(totalPrice==comparePrice) {
-            System.out.print("Yes");
-        } else {
-            System.out.print("No");
-        }
+        System.out.print(totalPrice==comparePrice ? "Yes" : "No");
     }
 }
